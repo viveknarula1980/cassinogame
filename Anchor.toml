@@ -1,0 +1,12 @@
+[workspace]
+members = ["coinflip"]
+
+[programs.devnet]
+coinflip = "Gq7ehciAVAWTqP9kgVkWejeokxkfqdyQenirboYX3tJs"
+
+[provider]
+cluster = "devnet"
+wallet = "/home/anupam/.config/solana/devnet-keypair.json"
+
+[scripts]
+test = "yarn run ts-mocha -p ./tsconfig.json tests/**/*.ts"
