@@ -1,6 +1,6 @@
 use anchor_lang::prelude::*;
 
-declare_id!("SLoTpRoj3c7j41ZPrPZhxYvjDUDU9ZDkGdMFm3Meme");
+declare_id!("HrYFHpYUqqEbVvgvPWQdbBnUhDYUgtWykbfTbdqYimuL");   // program id for deploy
 
 #[program]
 pub mod memeslot {

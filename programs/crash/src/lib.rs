@@ -1,6 +1,6 @@
 use anchor_lang::prelude::*;
 
-declare_id!("Crash111111111111111111111111111111111111111");
+declare_id!("HrYFHpYUqqEbVvgvPWQdbBnUhDYUgtWykbfTbdqYimuL");   // program id for deploy
 
 #[program]
 pub mod crash {
