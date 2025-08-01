@@ -1,6 +1,13 @@
 [workspace]
 members = [
     "programs/coinflip"
+    "programs/crash"
+    "programs/mines"
+    "programs/mines"
+    "programs/plinko"
+    "programs/memesolt"
+    "programs/wheel"
+
 ]
 
 [workspace.dependencies]
