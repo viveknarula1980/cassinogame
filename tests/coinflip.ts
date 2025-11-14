@@ -87,7 +87,7 @@ describe("coinflip", () => {
       .rpc();
 
     const resultAccount = await program.account.gameResult.fetch(gameResult.publicKey);
-    console.log("Game Result:", {
+    console.log("Final Game Result:", {
       player: resultAccount.player.toBase58(),
       betAmount: resultAccount.betAmount.toNumber(),
       choice: resultAccount.choice,
